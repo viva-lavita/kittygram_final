@@ -94,25 +94,29 @@ sudo apt install python3-pip python3-venv -y
 ```
 # Переходим в директорию backend-приложения проекта.
 cd /backend/
+
 # Создаём виртуальное окружение.
 python3 -m venv venv
+
 # Активируем виртуальное окружение.
 source venv/bin/activate
+
 # Возвращаемся назад 
 cd ..
+
 # Устанавливаем зависимости.
 pip install -r requirements.txt
 ```
 
-12. В корне проекта создайте файл .env с переменными:
-SECRET_KEY= прим. секретный код Джанго приложения.
-ALLOWED_HOSTS= без кавычек, через пробел.
-DB_HOST=
-DB_PORT=
-POSTGRES_DB=
-POSTGRES_USER=
-POSTGRES_PASSWORD=
-DB_NAME=
+12. В корне проекта создайте файл .env с переменными: \
+SECRET_KEY= прим. секретный код Джанго приложения. \
+ALLOWED_HOSTS= без кавычек, через пробел. \
+DB_HOST= \
+DB_PORT= \
+POSTGRES_DB= \
+POSTGRES_USER= \
+POSTGRES_PASSWORD= \
+DB_NAME= 
 
 
 13. В настройках репозитория github создайте секретные переменные необходимые для запуска workflow (см. файл /.git/workflows/main.py),
@@ -137,9 +141,9 @@ docker build -t username/kittygram_backend .
 cd ../nginx
 docker build -t username/kittygram_gateway .
 
-docker push username/taski_frontend
-docker push username/taski_backend
-docker push username/taski_gateway
+docker push username/kittygram_frontend
+docker push username/kittygram_backend
+docker push username/kittygram_gateway
 ```
 
 15. Замените в файле /.git/workflows/main.py логины в переменных с адресами образов на dockerhub-е на свой никнейм.
