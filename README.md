@@ -1,3 +1,12 @@
+[![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat-square&logo=GitHub%20actions)](https://github.com/features/actions)
+[![docker](https://img.shields.io/badge/-Docker-464646?style=flat-square&logo=docker)](https://www.docker.com)
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/)
+[![Django REST Framework](https://img.shields.io/badge/-Django%20REST%20Framework-464646?style=flat-square&logo=Django%20REST%20Framework)](https://www.django-rest-framework.org)
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-464646?style=flat-square&logo=PostgreSQL)](https://www.postgresql.org)
+[![gunicorn](https://img.shields.io/badge/-gunicorn-464646?style=flat-square&logo=gunicorn)](https://gunicorn.org)
+[![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat-square&logo=NGINX)](https://nginx.org/ru)
+
 # Kittygram - соцсеть для кошек. Версия Docker + CD/CI GitHub Actions.
 
 **Это социальная сеть для обмена фотографиями любимых питомцев - это полная рабочая платформа, разработанная с использованием Django в качестве бэкенд-фреймворка и React в качестве фронтенд-библиотеки. Деплой на сервер реализован с помощью контейнизатора приложений Docker и технологии автоматизации тестирования и доставки новых модулей проекта - CD/CI**
@@ -16,8 +25,8 @@
 
 Данный проект тестово запущен и доступен по адресу https://kittygram-lavita.ddns.net/, вы можете зайти и ознакомиться с функционалом. \
 Креды к проекту: \
-login: Viva;\
-password: qf1478951f
+login: admin;\
+password: admin1234
 
 # Технологии 
 ### 1. Frontend:
